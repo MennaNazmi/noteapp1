@@ -1,11 +1,11 @@
 //server setup
-
+//step 1
 var express = require('express');
 var cors = require('cors');
 var bodyParser = require('body-parser')
 var noteRoute = require('./route/noteRoute')
 
-var app = express()
+var app = express();
 
 
 app.use(cors())
